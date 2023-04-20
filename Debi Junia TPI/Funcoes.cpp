@@ -682,7 +682,6 @@ void ordenaVetoresString(int opMetodos)
 // FUNÇÃO PARA LER ARQUIVOS INTEIROS
 vector<int> lerAquivoNumero(string nomeInstancia)
 {
-    vector<int> vetornumeros;
     ifstream arquivo(nomeInstancia);
 
     if (!arquivo.is_open())
@@ -704,7 +703,6 @@ vector<int> lerAquivoNumero(string nomeInstancia)
 // FUNÇÃO PARA LER ARQUIVOS STRINGS
 vector<string> lerArquivoPalavra(string nomeInstancia)
 {
-    vector<string> vetorpalavras;
     ifstream arquivo(nomeInstancia);
 
     if (arquivo.is_open())
