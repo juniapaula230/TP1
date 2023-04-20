@@ -5,8 +5,6 @@
 using namespace std;
 int main()
 {
-    
-
     int opcaoMetodos;
     int opcaoInstancia = 0; 
     string nomeInstancia;              
@@ -29,7 +27,7 @@ int main()
                 {
                     nomeInstancia = defineInstancia(opcaoMetodos, opcaoInstancia);
                     lerAquivoNumero(nomeInstancia);
-                    ordenaVetoresString(opcaoMetodos);
+                    ordenaVetoresInt(opcaoMetodos);
                     system("pause");
                     system("cls");
                 }
@@ -37,7 +35,7 @@ int main()
                 { 
                     nomeInstancia = defineInstancia(opcaoMetodos, opcaoInstancia);
                     lerArquivoPalavra(nomeInstancia);
-                    ordenaVetoresInt(opcaoMetodos);
+                    ordenaVetoresStrings(opcaoMetodos);
                     system("pause");
                     system("cls");
                 }
